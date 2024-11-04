@@ -31,11 +31,11 @@ const tempData = [
 
 const Chapter = () => {
   return (
-    <div className="w-[25%] my-5 hidden md:block">
+    <div className="md:w-[30%] my-5 hidden md:block">
       {tempData.map((item) => (
         <div key={item.id}>
           <div
-            className={`flex flex-wrap gap-y-2 flex-col xl:flex-row lg:justify-between mx-2 pl-2 pr-5 xl:pl-5 py-5  ${
+            className={`flex flex-wrap gap-y-2 flex-col xl:flex-row lg:justify-between   pl-2 pr-5 xl:pl-5 py-5  ${
               item.isActive ? "bg-[#EFF5FF] rounded-lg" : ""
             }`}
           >

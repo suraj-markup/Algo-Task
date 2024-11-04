@@ -47,7 +47,7 @@ const tempData = [
 
 const Part = () => {
   return (
-    <div className="w-full md:w-[75%] lg:mx-5  lg:ml-5">
+    <div className="w-full md:w-[75%] ml-2 lg:ml-5">
       {tempData.map((data) => (
         <div
           key={data.id}
@@ -70,7 +70,7 @@ const Part = () => {
                 <p className="text-lg lg:text-2xl text-[#17384D]">
                   {data.title}
                 </p>
-                <h2 className="text-xl lg:text-[28px] font-bold">
+                <h2 className="text-xl xl:text-[28px] font-bold">
                   {data.name}
                 </h2>
               </div>
